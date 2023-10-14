@@ -65,14 +65,15 @@
 // console.log(nth_dimen_arr); //Doesnt change the original array
 
 //concat()
-// let new_arr=[1,2,3,4,5]
-// let new_arr1=[6,7,8,9]
+let new_arr=[1,2,3,4,5]
+let new_arr1=[6,7,8,9]
 // console.log(new_arr.push(new_arr1));
 // console.log(new_arr);
 // console.log(new_arr.concat(new_arr1)); //concateneated array is returned
 // console.log(new_arr); //doesnt mutatate originasl array
+
 //spread opereater
-// console.log([...new_arr,...new_arr1]);
+console.log([...new_arr,...new_arr1]);
 
 //Array.isArray->checks if the value given is an array or no,return boolean val
 
