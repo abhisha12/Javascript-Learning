@@ -44,3 +44,29 @@
 // }
 // obj3.greeting();
 // console.log(obj3);
+
+//hasOwnproperty
+// const obj5 ={name:'abhi', age:22}
+// console.log(obj5.hasOwnProperty('age'));
+// console.log(obj5.hasOwnProperty('isloggedIn'));
+
+//Object Destructuring
+const newObj ={
+    fullName:{
+        firstName:'Abhisha',
+        lastName:'Talekar'
+    },
+    age:22,
+    isLoggenIn:false,
+    Greeting: function(){
+        console.log('Hello');
+    }
+}
+
+const{fullName:name,isLoggenIn:loggedIn, age} = newObj
+console.log(name);
+console.log(loggedIn);
+console.log(age);
+console.log(name.firstName);
+
+
