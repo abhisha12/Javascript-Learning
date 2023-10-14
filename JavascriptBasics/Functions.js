@@ -27,7 +27,7 @@
 
 //rest operater
 //if single parameter is defined amd we pass many arguements, then to print all the arguement values rest is used
-function returnNumbers(num1,num2,...numbers){
-    return numbers;
-}
-console.log(returnNumbers(100,200,300,400,500));
+// function returnNumbers(num1,num2,...numbers){
+//     return numbers;
+// }
+// console.log(returnNumbers(100,200,300,400,500));
