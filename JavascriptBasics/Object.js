@@ -63,10 +63,13 @@ const newObj ={
     }
 }
 
-const{fullName:name,isLoggenIn:loggedIn, age} = newObj
-console.log(name);
-console.log(loggedIn);
-console.log(age);
-console.log(name.firstName);
+// const{fullName:name,isLoggenIn:loggedIn, age} = newObj
+// console.log(name);
+// console.log(loggedIn);
+// console.log(age);
+// console.log(name.firstName);
 
+//Cpnverting arrays into object
+// const arr=[['name','abhisha'],['age',22],['Hobby','Coding']]
+// console.log(Object.fromEntries(arr));
 
