@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+</head>
+<style>
+    body{
+        background-color: #212121;
+
+    }
+    #red{
+        height: 150px;
+        width:150px;
+        background-color: red;
+        margin: 12px;
+        border: 2px solid black;
+    }
+    #blue{
+        height: 150px;
+        width:150px;
+        background-color: blue;
+        margin: 12px;
+        border: 2px solid black;
+
+
+    }
+    #orange{
+        height: 150px;
+        width:150px;
+        background-color: orange;
+        margin: 12px;
+        border: 2px solid black;
+
+
+    }
+    #brown{
+        height: 150px;
+        width:150px;
+        background-color: brown;
+        margin: 12px;
+        border: 2px solid black;
+
+
+    }
+    .main{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="color" id="red"></div>
+        <div class="color" id="blue"></div>
+        <div class="color"id='orange'></div>
+        <div class="color" id="brown"></div>
+    </div>
+
+    <script>
+   const allColorButtons =document.querySelectorAll('.color')
+//    console.log(allColorButtons);
+   allColorButtons.forEach((eachElement)=>{
+    // console.log(eachElement);
+    eachElement.addEventListener('click',(event)=>{
+        // console.log(event);
+        console.log(event.target.id);
+        switch(event.target.id){
+            case 'red': document.body.style.backgroundColor='red'
+            break;
+            case 'blue': document.body.style.backgroundColor='blue'
+            break;
+            case 'orange': document.body.style.backgroundColor='orange'
+            break;
+            case 'brown': document.body.style.backgroundColor='brown'
+            break;
+            default:
+                console.log('Incorrect');
+
+
+
+
+
+        }
+       
+    
+    }
+    )
+   })
+
+      
+     
+
+    </script>
+    
+</body>
+</html>
